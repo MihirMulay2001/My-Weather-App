@@ -41,7 +41,7 @@ class App extends Component{
   render(){
     return(
       <div>
-        <Router basename={`${process.env.PUBLIC_URL}/`}>
+        <Router>
           <Switch>
             <Route exact path='/' component={this.mainPage}/>
             <Route path='/weather' component= {this.weatherPage} />
