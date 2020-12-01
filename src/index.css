@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-color: white;
+  font-size: 2vh;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+i{
+  margin-top: 1vw;
+  margin-right: .8vw;
+  font-size: 1.3vh;
+}
+.btn{
+  color: rgb(3, 4, 94);
+  background-color: whitesmoke;
+  border-radius: 20px;
+  font-size: 1.7vh;
+  text-align: center;
+  margin: 2vh;
+  height: 6vh;
+  width: 28vw;
+  padding: 0.5vh
+}
+#heading1{
+  background-color:rgb(34, 87, 122);
+  color: white;
+  height: 9vh;
+  font-size: 1.5vw;
+  align-items: center;
+  display: grid;
+  margin: 0.1vw;
+}
+#inputLocation{
+  margin: 4vw;
+  padding: 4vw;
+  line-height: 3vw;
+}
+#getWeather{
+  font-size: 1.9vh;
+  background-color: rgb(202, 240, 248);
+  border-radius: 2vh;
+  color: rgb(3, 4, 94);
+  max-width: 22vw;
+  padding: 2vw;
+  margin: 1vw;
+}
+#future-menu{
+  margin-top: 5vh;
+  margin-right: 1vh;
+}
+#daily-list, #hourly-list{
+  background-color: #caf0f8;
+  padding: 1vw;
+  line-height: 3vh;
+  border-radius: 0.5vw;
+  margin: 1px;
+}
+.temperatures{
+  margin-right: 1vw;
+  display: inline;
+}
+#daily, #hourly{
+  height: 87vh;
+  overflow: scroll;
+}
+#daily::-webkit-scrollbar , #hourly::-webkit-scrollbar{
+  display: none;
+}
+#footer{
+  background-color:rgb(34, 87, 122);
+  margin-top: 4vw;
+  color: white;
+  max-height: 4vw;
+  justify-content: center;
+  text-align: center;
+  font-family: cursive;
+}
+#footer h5{
+  font-size: 1.5vw;
+  padding: 0.5vw;
+}
+#footer h5 i{
+  margin: .5vw;
+  color: red;
+}
+.WeatherIcon{
+  height: 10vh;
+  width: 10vh;
+  margin-right: 1.5vw;
+}
+#currentForecast{
+  line-height: 4vh;
+  padding:1vh;
+  text-align: center;
+  font-size: 2.5vh;
+  margin: 0;
+  color: black;
+  background-image: linear-gradient(to bottom right, #3edbf0, #87ff83);
+  border-radius: 3vw;
+  box-shadow: 5px 5px 20px #012cffa1
+}
+#currentForecast .row{
+  margin: 3vh;
+}
+#allWeather{
+  margin: 1vh;
+  padding: 0;
 }
