@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import MainPage from './MainPage'
 import WeatherPage from './WeatherPage'
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-
+require('dotenv').config();
 
 class App extends Component{
   constructor(){
@@ -41,7 +41,7 @@ class App extends Component{
   render(){
     return(
       <div>
-        <Router basename={`${process.env.PUBLIC_URL}/`}>
+        <Router basename={`${process.env.REACT_APP_PUBLIC_URL}/`}>
           <Switch>
             <Route exact path='/' component={this.mainPage}/>
             <Route path='/weather' component= {this.weatherPage} />
