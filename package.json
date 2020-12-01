@@ -2,7 +2,7 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": "true",
-  "homepage": "http://mihirmulay.me/My-Weather-App",
+  "homepage": "https://mihirmulay2001.github.io/My-Weather-App/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
