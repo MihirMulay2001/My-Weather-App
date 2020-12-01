@@ -43,7 +43,7 @@ class App extends Component{
       <div>
         <Router>
           <Switch>
-            <Route exact path='/My-Weather-App' component={this.mainPage}/>
+            <Route exact path='/My-Weather-App/' component={this.mainPage}/>
             <Route path='/My-Weather-App/weather' component= {this.weatherPage} />
           </Switch>
         </Router>
