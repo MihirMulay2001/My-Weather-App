@@ -25,9 +25,10 @@ function SunTime({props}){
 }
 
 function WeatherConditions({props}){
+  let id = 0
   let condition = props.map((item)=>{
     return (
-      <div>
+      <div key={++id}>
         <span><img alt="img not available" className="WeatherIcon" src={`http://openweathermap.org/img/wn/${item.icon}@2x.png`} /></span>
         <span style={{fontSize: "2vh"}}>{item.description.toUpperCase()}</span>
       </div>

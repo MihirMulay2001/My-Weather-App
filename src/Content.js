@@ -15,6 +15,7 @@ class Content extends Component{
   }
   componentDidMount(){
     const key = process.env.REACT_APP_API_KEY;
+    console.log("url" ,process.env.PUBLIC_URL);
     const {latitude, longitude} = this.state
     fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&exclude={part}&appid=${key}`)
     .then(res => res.json())
