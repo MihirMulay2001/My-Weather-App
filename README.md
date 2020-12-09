@@ -14,5 +14,6 @@ You will also see any lint errors in the console.
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### The weather app
+Enter the latitude and longitude of your location for which you want to find the weather forecast.
+It will give you an hourly and daily forecast too
